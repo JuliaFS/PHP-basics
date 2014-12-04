@@ -1,0 +1,18 @@
+table{
+    text-indent: 5px;
+    border-collapse: collapse;
+}
+table tr{
+    border: 1px solid #000;
+}
+table td{
+    width: 120px;
+    padding: 5px;
+}
+table td:first-child{
+    text-align: left;
+    background: #FF9C00;
+}
+table td:last-child{
+    text-align: right;
+}

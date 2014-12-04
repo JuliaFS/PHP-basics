@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculate Interest</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Working with forms</h1>
+        <p> Write a PHP script CalculateInterest.php which generates an HTML page that contains:
+            An input text field to hold the amount of money
+            Radio buttons to choose the currency
+            An input text field to enter the compound annual interest amount
+            A dropdown menu to choose the period of time
+            A submit button
+            When the information is submitted, the script should print out the amount
+            of money you will have after the selected period, rounded to 2 decimal places.
+            Semantic HTML is required. Styling is not required.
+        </p>
+    </header>
+    <article>
+        <form action="calculateInterest.php" method="get">
+            <label for="amount">Enter amount</label>
+            <input type="text" name="amount" id="amount"/><br/>
+            <input type="radio" name="currency" value="usd" id="usd"/>
+            <label for="usd">USD</label>
+            <input type="radio" name="currency" value="eur" id="eur"/>
+            <label for="eur">EUR</label>
+            <input type="radio" name="currency" value="bgn" id="bgn"/>
+            <label for="bgn">BGN</label><br/>
+            <label for="interest-rate">Compound Interest Rate:</label>
+            <input type="text" id="interest-rate" name="interest"/><br/>
+            <select name="period" id="duration">
+                <option value="6months">6 Months</option>
+                <option value="1year">1 Year</option>
+                <option value="2years">2 Years</option>
+                <option value="5years">5 Years</option>
+            </select>
+            <input type="submit" name="submitInfo" value="Calculate"/>
+        </form>
+    </article>
+</body>
+</html>

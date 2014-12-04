@@ -1,0 +1,101 @@
+header,
+h1,
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    color: black;
+    font-size: 18px;
+}
+
+header{
+    border-bottom: 1px solid grey;
+    margin-top: 1.5%;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+header h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+article h1{
+    font-weight: normal;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+p{
+    text-align: center;
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+p + p{
+    margin-top: 0;
+    display: block;
+    text-align: left;
+}
+
+span{
+    display: block;
+}
+
+#navigation{
+    width: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+#navigation a{
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #808080;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 200px;
+}
+
+input[type="submit"]{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+input[type="button"]{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-top: 10px;
+}
+
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
