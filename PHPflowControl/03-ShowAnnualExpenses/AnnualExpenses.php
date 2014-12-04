@@ -55,7 +55,7 @@
         endfor; 
 		?>
 				<td><?=$total?></td>
-        <	/tr>
+			</tr>
         <?php
         $currentYear = $currentYear + 1;
         $total = 0;
