@@ -1,0 +1,24 @@
+textarea{
+    width: 300px;
+    min-height: 100px;
+}
+
+input[type="submit"]{
+    width: 305px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.container{
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}

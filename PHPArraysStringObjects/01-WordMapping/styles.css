@@ -1,0 +1,20 @@
+textarea{
+    width: 300px;
+    min-height: 100px;
+}
+
+input[type="submit"]{
+    width: 305px;
+    display: block;
+    padding: 5px 10px;
+}
+table{
+    margin-top: 10px;
+    background: #D6D6D6;
+    border: 2px solid #9C9C9C;
+}
+
+td{
+    border: 1px solid #9C9C9C;
+    padding: 5px 10px;
+}

@@ -1,0 +1,15 @@
+div{
+    margin-top: 10px;
+}
+label{
+    display: inline-block;
+    width: 70px;
+}
+input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+}
+
+p{
+    width: 230px;
+}
